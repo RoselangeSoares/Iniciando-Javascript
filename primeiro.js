@@ -20,7 +20,7 @@ const distanciaEmKm = 462;
 
 const litrosConsumidos = distanciaEmKm / kmPorLitros;
 const valorGasto = litrosConsumidos * precoCombustivel;
-console.log(valorGasto.toFixed(2));
+    console.log(valorGasto.toFixed(2));
 
 console.clear()
 /*
@@ -44,10 +44,10 @@ const gastoConsumidos = distanciaKm / gastoMedioPorKm;
 
 if (tipoCombustivel === 'Etanol') {
 const valorGasto = gastoConsumidos * precoEtanol;
-console.log(valorGasto.toFixed(2))
+    console.log(valorGasto.toFixed(2))
 } else {
 const valorGasto = gastoConsumidos * precoGasolina;
-console.log(valorGasto.toFixed(2))
+    console.log(valorGasto.toFixed(2))
 }
 
 /* O IMC - Indice de Massa Corporal é um critério da Organização Mundial de Saúde para dar uma indicação sobre a condição de peso de uma pessoa adulta.
@@ -68,7 +68,7 @@ IMC em adultos Condição:
 const altura = 1.80;
 const peso = 145
 const imc = peso / Math.pow (altura, 2)
-console.log(imc.toFixed(2))
+    console.log(imc.toFixed(2))
 
 if (imc < 18.5){
     console.log('Abaixo do Peso')
@@ -92,7 +92,7 @@ Código Condição de Pagamento:
 - Em duas vezes, preço normal de etiqueta sem juros;
 - Acima de duas vezes, preço normal de etiqueta mais juros de 10%.
 */
-
+/*
 const precoEtiqueta = 100;
 const formaDePagamento = 3;
 
@@ -105,3 +105,31 @@ if (formaDePagamento === 1){
 }else {
     console.log(precoEtiqueta + precoEtiqueta * 0.1)
 }
+*/
+/*
+//Exemplo sobre funções.
+function teste(){
+    console.log('teste')
+}
+teste();
+teste();
+*/
+/*
+function sayMayName(name){
+    console.log('Your name is:' + name);
+}
+sayMayName('Roselange');
+sayMayName('Roselange Soares');
+
+function incrementarJuros(valor, percentualJuros) {
+    const valorDeAcrecimo = (percentualJuros / 170) * valor;
+    return valor + valorDeAcrecimo;
+}
+console.log(incrementarJuros(170, 10))
+console.log(incrementarJuros(170, 23))
+console.log(incrementarJuros(170, 45))
+*/
+
+//ORGANIZANDO AS FUNÇÕES.
+
+

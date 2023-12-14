@@ -130,6 +130,44 @@ console.log(incrementarJuros(170, 23))
 console.log(incrementarJuros(170, 45))
 */
 
-//ORGANIZANDO AS FUNÇÕES.
+//ORGANIZANDO AS FUNÇÕES.      "Alt + Shift + f Para organizar."
+/*
+function whatYourName(nome) {
+    console.log('My Name is: ' + nome);
+}
+whatYourName('Roselange')
 
+function yourAge(idade) {
+    console.log('My Age is: ' + idade)
+    if (idade >= 18) {
+        console.log('You are of legal age!')
+    } else {
+        console.log('You are underage!')
+    }
+}
+yourAge('29')
+*/
+
+function aplicarDesconto(valor, desconto) {
+    return valor - (valor * (desconto / 100));
+}
+function apliarJuros(valor, juros) {
+    return valor + (valor * (juros / 100))
+}
+const valorDoProduto = 100;
+const formaDePagamento = 4;
+
+if (formaDePagamento === 1) {
+    console.log(aplicarDesconto(valorDoProduto, 10))
+} else if (formaDePagamento === 2) {
+    console.log(aplicarDesconto(valorDoProduto, 15))
+} else if (formaDePagamento === 3) {
+    console.log(valorDoProduto)
+} else {
+    console.log(apliarJuros(valorDoProduto, 10))
+}
+
+console.clear()
+
+console.log((10 * 200) / 100); console.log(10 / 100)
 

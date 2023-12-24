@@ -18,7 +18,7 @@ console.log (altura, typeof altura)
 console.log (nome, typeof nome)
 console.log (estudando, typeof estudando)
 
-let outra;    //sem definiar valores a vaiável é determinada como undefined.
+let outra;    //sem definir valores a vaiável é determinada como undefined.
 console.log(outra)
 
 let nula = null;

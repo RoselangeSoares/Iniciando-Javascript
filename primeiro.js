@@ -147,7 +147,7 @@ function yourAge(idade) {
 }
 yourAge('29')
 */
-
+/*
 function aplicarDesconto(valor, desconto) {
     return valor - (valor * (desconto / 100));
 }
@@ -170,4 +170,26 @@ if (formaDePagamento === 1) {
 console.clear()
 
 console.log((10 * 200) / 100); console.log(10 / 100)
+*/
+/*
+torrar ('Pão Integral', 'Felipe', 10.90)
+torrar ('Pão na chapa', 10.90)
+
+function torrar(pao, valor, nome = 'Cliente') {
+    console.log('Torrada feita com ' + pao)
+    console.log('É um pedido de ' + nome)
+    console.log('O valor total é: ' + valor)
+}
+*/
+/*
+let userName = getFirstName('Roselange Soarinho', ' ')
+console.log(' Seja Bem Vindo ' + userName)
+userName = getFirstName('Dasdores-Soares-Silva', '-')
+console.log(' Seja Bem Vindo ' + userName)
+
+function getFirstName(name, splitChar) {
+    let firstName = name.split(splitChar)[0]
+    return firstName
+}
+*/
 

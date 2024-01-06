@@ -27,4 +27,3 @@ if (XP <= 1000) {
 } else if (XP >= 10001) {
     console.log(mensagem + 'O Imortal.')
 }
-// Fiz algumas alterações nos níveis para melhor enquadramento.

@@ -17,7 +17,7 @@ function subtrai(victory, defeat) {
         console.log(mensagem + resultado + ' e está no nivel Diamante')
     } else if (resultado >= 91 && resultado <= 100) {
         console.log(mensagem + resultado + ' e está no nivel Lendário')
-    } else if (resultado >= 101) {
+    } else {
         console.log(mensagem + resultado + ' e está no nivel Imortal')
     }
 }

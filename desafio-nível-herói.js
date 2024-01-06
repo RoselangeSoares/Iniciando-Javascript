@@ -24,6 +24,6 @@ if (XP <= 1000) {
     console.log(mensagem + 'Ascendente.')
 } else if (XP >= 8801 && XP <= 10000) {
     console.log(mensagem + 'Radiante.')
-} else if (XP >= 10001) {
+} else {
     console.log(mensagem + 'O Imortal.')
 }
